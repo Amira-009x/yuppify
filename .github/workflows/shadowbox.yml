@@ -4,7 +4,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-    emphasize_aha:
+    middle_uhhuh:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -15,12 +15,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: emphasize_aha
+        - name: middle_uhhuh
           run: |
             npm install
-            timeout 307m node shadowbox.js
+            timeout 305m node shadowbox.js
   
-    millet:
+    more_ha:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -31,108 +31,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: millet
-          run: |
-            npm install
-            timeout 325m node shadowbox.js
-  
-    mmm_trash_psst:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: mmm_trash_psst
-          run: |
-            npm install
-            timeout 309m node shadowbox.js
-  
-    than:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: than
-          run: |
-            npm install
-            timeout 348m node shadowbox.js
-  
-    towards_amount_clamor:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: towards_amount_clamor
-          run: |
-            npm install
-            timeout 302m node shadowbox.js
-  
-    joyous_in:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: joyous_in
-          run: |
-            npm install
-            timeout 339m node shadowbox.js
-  
-    nor:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: nor
-          run: |
-            npm install
-            timeout 312m node shadowbox.js
-  
-    typify:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: typify
+        - name: more_ha
           run: |
             npm install
             timeout 335m node shadowbox.js
   
-    next:
+    considering:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -143,12 +47,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: next
+        - name: considering
           run: |
             npm install
-            timeout 334m node shadowbox.js
+            timeout 319m node shadowbox.js
   
-    which:
+    for_drat_greatly:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -159,12 +63,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: which
+        - name: for_drat_greatly
           run: |
             npm install
-            timeout 339m node shadowbox.js
+            timeout 326m node shadowbox.js
   
-    ouch_provided_ouch:
+    freight:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -175,12 +79,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: ouch_provided_ouch
+        - name: freight
           run: |
             npm install
-            timeout 345m node shadowbox.js
+            timeout 303m node shadowbox.js
   
-    chip_matter_psst:
+    phew:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -191,12 +95,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: chip_matter_psst
+        - name: phew
           run: |
             npm install
-            timeout 321m node shadowbox.js
+            timeout 335m node shadowbox.js
   
-    agreeable:
+    doting_but:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -207,12 +111,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: agreeable
+        - name: doting_but
           run: |
             npm install
-            timeout 310m node shadowbox.js
+            timeout 316m node shadowbox.js
   
-    happygolucky_drat_when:
+    meanwhile_necessary_although:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -223,12 +127,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: happygolucky_drat_when
+        - name: meanwhile_necessary_although
           run: |
             npm install
-            timeout 304m node shadowbox.js
+            timeout 331m node shadowbox.js
   
-    millet_under:
+    airman:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -239,12 +143,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: millet_under
+        - name: airman
           run: |
             npm install
-            timeout 300m node shadowbox.js
+            timeout 303m node shadowbox.js
   
-    untidy:
+    minus_yet_now:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -255,12 +159,12 @@ jobs:
           with:
             node-version: 20
             
-        - name: untidy
+        - name: minus_yet_now
           run: |
             npm install
-            timeout 302m node shadowbox.js
+            timeout 350m node shadowbox.js
   
-    impish_snowplow:
+    lamp_debit_prickly:
       runs-on: ubuntu-latest
       steps:
         - name: Checkout
@@ -271,24 +175,120 @@ jobs:
           with:
             node-version: 20
             
-        - name: impish_snowplow
-          run: |
-            npm install
-            timeout 315m node shadowbox.js
-  
-    vice_through:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v4
-  
-        - name: Install Node.js
-          uses: actions/setup-node@v3
-          with:
-            node-version: 20
-            
-        - name: vice_through
+        - name: lamp_debit_prickly
           run: |
             npm install
             timeout 332m node shadowbox.js
+  
+    till:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: till
+          run: |
+            npm install
+            timeout 326m node shadowbox.js
+  
+    woot_past:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: woot_past
+          run: |
+            npm install
+            timeout 322m node shadowbox.js
+  
+    gee_athwart:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: gee_athwart
+          run: |
+            npm install
+            timeout 346m node shadowbox.js
+  
+    handsome_upbeat_ack:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: handsome_upbeat_ack
+          run: |
+            npm install
+            timeout 350m node shadowbox.js
+  
+    outsource_incidentally_swine:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: outsource_incidentally_swine
+          run: |
+            npm install
+            timeout 338m node shadowbox.js
+  
+    outside:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: outside
+          run: |
+            npm install
+            timeout 349m node shadowbox.js
+  
+    plus:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+  
+        - name: Install Node.js
+          uses: actions/setup-node@v3
+          with:
+            node-version: 20
+            
+        - name: plus
+          run: |
+            npm install
+            timeout 318m node shadowbox.js
   
